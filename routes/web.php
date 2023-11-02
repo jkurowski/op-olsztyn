@@ -26,11 +26,19 @@ Route::middleware(['restrictIp'])->group(function () {
 
     // Location
     Route::get('lokalizacja',
-        'Front\Location\IndexController@index')->name('about');
+        'Front\Location\IndexController@index')->name('location');
 
-    // Location
+    // Apartaments
     Route::get('mieszkania',
         'Front\Investment\IndexController@index')->name('investment');
+
+    // Gallery
+    Route::get('galeria',
+        'Front\GalleryController@index')->name('gallery');
+
+    // Loans
+    Route::get('kredyt',
+        'Front\Loan\IndexController@index')->name('loan');
 
 
 

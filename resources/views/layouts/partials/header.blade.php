@@ -2,7 +2,34 @@
     <header id="header">
         <div class="container">
             <div class="row">
+                <div class="col-3">
+                    <div id="logo">
+                        <a href="">
+                            <img src="{{ asset("/images/logo.jpg") }}" alt="" width="190" height="150">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="top">
 
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <nav>
+                                <ul class="list-unstyled mb-0 row">
+                                    <li><a href="/">Strona główna</a></li>
+                                    <li><a href="">Mieszkania / Lokal użytkowy</a></li>
+                                    <li><a href="{{ route('location') }}">Lokalizacja</a></li>
+                                    <li><a href="{{ route('gallery') }}">Galeria</a></li>
+                                    <li><a href="{{ route('loan') }}">Zapytaj o kredyt</a></li>
+                                    <li><a href="{{ route('contact.index') }}">Kontakt</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

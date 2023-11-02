@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-    <section class="">
+    <section class="pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-7">
@@ -36,22 +36,22 @@
     <section>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-12">
                     <div class="row">
                         <div class="col-8">
                             <div class="pe-5">
-                                <img src="https://placehold.co/680x500" alt="">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.31152749308!2d20.47660066758571!3d53.77888600678762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed16eb7b1f3%3A0x1f84b9f9e83d92a!2sWyzwolenia%206%2F1%2C%2010-106%20Olsztyn!5e0!3m2!1spl!2spl!4v1698924540281!5m2!1spl!2spl" width="100%" height="550" style="border:11px solid white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                         <div class="col-4 d-flex align-items-center">
                             <div class="text-lato text-small">
                                 <h3>BIURO SPRZEDAŻY</h3>
-                                <p><a href=""><b>biuro@apartamenty-wyzwolenia.pl</b></a></p>
-                                <p><a href=""><b>+48 790 201 217</b></a></p>
-                                <p><b>ul. Wyzwolenia 6/1, 10-105 Olsztyn</b></p>
+                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <a href="mailto:biuro@apartamenty-wyzwolenia.pl"><b>biuro@apartamenty-wyzwolenia.pl</b></a></p>
+                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-phone.svg') }}" alt="Ikonka telefonu kontaktowego"> <a href="tel:+48790201217"><b>+48 790 201 217</b></a></p>
+                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-location.svg') }}" alt="Ikonka lokalizacji"> <b>ul. Wyzwolenia 6/1, 10-105 Olsztyn</b></p>
                                 <p>&nbsp;</p>
                                 <h4>GODZINY OTWARCIA BIURA</h4>
-                                <p><b>poniedziałek - piątek: 09:30-17:00</b></p>
+                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-time.svg') }}" alt="Ikonka adresu godzin otwarcia"> <b>poniedziałek - piątek: 09:30-17:00</b></p>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="distance-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -205,86 +205,86 @@
                         <!-- upper distances -->
                         <div class="distance dist-top" style="left:2%">
                             <div class="dist-mark" style="height:240px">
-                                <span></span>
-                                <p>PARK PODZAMCZE, <br>LO ii</p>
+                                <span>2 min</span>
+                                <p>Park podzamcze, <br>LO ii</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:23%">
                             <div class="dist-mark" style="height:360px">
-                                <span></span>
+                                <span>4 min</span>
                                 <p>Urząd miasta</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:39%">
                             <div class="dist-mark" style="height:240px">
-                                <span></span>
-                                <p>KINO AWANGARDA</p>
+                                <span>5 min</span>
+                                <p>Kino awangarda</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:53%">
                             <div class="dist-mark" style="height:140px">
-                                <span></span>
-                                <p>centrum <br>handlowe</p>
+                                <span>7 min</span>
+                                <p>Centrum <br>handlowe</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:74%">
                             <div class="dist-mark" style="height:360px">
-                                <span></span>
-                                <p>PARK CENTRALNY</p>
+                                <span>10 min</span>
+                                <p>Park centralny</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:85%">
                             <div class="dist-mark" style="height:185px">
-                                <span></span>
-                                <p>LAS MIEJSKI</p>
+                                <span>15 min</span>
+                                <p>Las miejski</p>
                             </div>
                         </div>
 
                         <!-- bottom distances -->
                         <div class="distance dist-bottom" style="left:5%">
                             <div class="dist-mark" style="height: 240px">
-                                <span></span>
+                                <span>2 min</span>
                                 <p>Sklep <br>spożywczy</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:20%">
                             <div class="dist-mark" style="height: 485px">
-                                <span></span>
+                                <span>4 min</span>
                                 <p class="big-p">Przystanek komunikacji <br>miejskiej (autobus, tramwaj)</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:33%">
                             <div class="dist-mark" style="height: 355px">
-                                <span></span>
-                                <p>PRZEDSZKOLE</p>
+                                <span>4 min</span>
+                                <p>Przedszkole</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:45%">
                             <div class="dist-mark" style="height: 220px">
-                                <span></span>
+                                <span>5 min</span>
                                 <p>Stare Miasto <br>(restauracje, pub-y) </p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:69%">
                             <div class="dist-mark" style="height: 415px">
-                                <span></span>
-                                <p>SZKOŁA PODSTAWOWA</p>
+                                <span>8 min</span>
+                                <p>Szkoła podstawowa</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:81%">
                             <div class="dist-mark" style="height: 220px">
-                                <span></span>
-                                <p>teatr im. stefana <br>jaracza</p>
+                                <span>10 min</span>
+                                <p>Teatr im. stefana <br>jaracza</p>
                             </div>
                         </div>
                     </div>
