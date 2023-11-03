@@ -104,7 +104,99 @@
         <div class="row">
             <div class="col-12 text-center">
                 <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="m-auto mb-3">
-                <h2>Dlaczego Apartamenty Wyzwolenia</h2>
+                <h2 class="mb-3">Dlaczego Apartamenty Wyzwolenia</h2>
+            </div>
+            <div class="col-12 text-lato text-center">
+                <h3>ATUTY OSIEDLA</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div class="row no-gutters" id="features-carousel">
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Części wspólne zasilane panelami fotowoltaicznymi</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="320.793" height="337.793" viewBox="0 0 320.793 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 320.2575073242188 357.7578430175781 L 0.5000231266021729 312.5948181152344 L 0.5000231266021729 21.0408992767334 L 320.2931823730469 21.0408992767334 L 320.2575073242188 357.7578430175781 Z" stroke="none"/>
+                        <path d="M 0.999969482421875 21.5408935546875 L 0.999969482421875 312.1604614257812 L 319.7575073242188 357.1822509765625 L 319.7930908203125 21.5408935546875 L 0.999969482421875 21.5408935546875 M -3.0517578125e-05 20.5408935546875 L 320.7931823730469 20.5408935546875 L 320.7573852539062 358.3334045410156 L -3.0517578125e-05 313.0291442871094 L -3.0517578125e-05 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Przy największym Lesie Miejskim (ponad 1400 ha zieleni)</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.793" viewBox="0 0 321 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 0.5357722640037537 357.7578735351562 L 0.5000530481338501 21.0408992767334 L 320.5 21.0408992767334 L 320.5 312.5947875976562 L 0.5357722640037537 357.7578735351562 Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Wyjątkowa lokalizacja z widokiem na Stare Miasto </p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.793" viewBox="0 0 321 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 0.5357722640037537 357.7578735351562 L 0.5000530481338501 21.0408992767334 L 320.5 21.0408992767334 L 320.5 312.5947875976562 L 0.5357722640037537 357.7578735351562 Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Instalacja do ładowania samochodów elektrycznych</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.793" viewBox="0 0 321 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 0.5357722640037537 357.7578735351562 L 0.5000530481338501 21.0408992767334 L 320.5 21.0408992767334 L 320.5 312.5947875976562 L 0.5357722640037537 357.7578735351562 Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Przy Parku Podzamcze – miejsce na aktywność – bieganie, ścieżka rowerowa - Łynostrada</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.793" viewBox="0 0 321 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 0.5357722640037537 357.7578735351562 L 0.5000530481338501 21.0408992767334 L 320.5 21.0408992767334 L 320.5 312.5947875976562 L 0.5357722640037537 357.7578735351562 Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Nowoczesna strefa fitness</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.793" viewBox="0 0 321 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 0.5357722640037537 357.7578735351562 L 0.5000530481338501 21.0408992767334 L 320.5 21.0408992767334 L 320.5 312.5947875976562 L 0.5357722640037537 357.7578735351562 Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
             </div>
         </div>
     </div>
@@ -297,6 +389,96 @@
     </div>
 </section>
 
+<section class="dark-blue-bg investement-bg">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-12 text-center">
+                <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="m-auto mb-3">
+                <h2>Właściwa decyzja</h2>
+            </div>
+
+            <div class="col-12 text-center mb-5">
+                <p><b>Nowe mieszkanie w centrum Olsztyna</b></p>
+            </div>
+
+            <div class="col-8 text-center">
+                <p>Nie możesz się doczekać zakupu nowego mieszkania? Doskonale to rozumiemy – własne mieszkanie daje poczucie bezpieczeństwa i stabilizacji oraz możliwość samodzielnej aranżacji. To coś, na co warto czekać.</p>
+                <p>&nbsp;</p>
+                <p>Zastanawiasz się jednak, czy kupno mieszkania w centrum miasta to dobry pomysł? Zdecydowanie tak, jeśli zależy Ci na:</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-3 position-relative features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Byciu w centrum wydarzeń – i mieć pod ręką instytucje kultury, ulubione kawiarnie i restauracje, kluby</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="320.793" height="337.792" viewBox="0 0 320.793 337.792">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.05)">
+                        <path d="M0,20.541H320.793l-.036,337.793L0,313.029Z" stroke="none"/>
+                        <path d="M 0.999969482421875 21.5408935546875 L 0.999969482421875 312.1604614257812 L 319.7575073242188 357.1822509765625 L 319.7930908203125 21.5408935546875 L 0.999969482421875 21.5408935546875 M -3.0517578125e-05 20.5408935546875 L 320.7931823730469 20.5408935546875 L 320.7573852539062 358.3334045410156 L -3.0517578125e-05 313.0291442871094 L -3.0517578125e-05 20.5408935546875 Z" stroke="none" fill="rgba(255,255,255,0.5)" class="fill-path"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="col-3 position-relative features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Nie chcesz mieszkać gdziekolwiek – chcesz żyć w miejscu, które będzie Cię na co dzień inspirować, z bliskością natury</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.792" viewBox="0 0 321 337.792">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.05)">
+                        <path d="M321,20.541H0L.036,358.333,321,313.029Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="rgba(255,255,255,0.5)" class="fill-path" />
+                    </g>
+                </svg>
+            </div>
+
+            <div class="col-3 position-relative features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Szukasz nowego mieszkania w centrum Olsztyna, dzięki któremu ograniczysz jazdę samochodem, a częściej będziesz korzystać z roweru lub komunikacji miejskiej
+                        </p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="320.793" height="337.792" viewBox="0 0 320.793 337.792">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.05)">
+                        <path d="M0,20.541H320.793l-.036,337.793L0,313.029Z" stroke="none"/>
+                        <path d="M 0.999969482421875 21.5408935546875 L 0.999969482421875 312.1604614257812 L 319.7575073242188 357.1822509765625 L 319.7930908203125 21.5408935546875 L 0.999969482421875 21.5408935546875 M -3.0517578125e-05 20.5408935546875 L 320.7931823730469 20.5408935546875 L 320.7573852539062 358.3334045410156 L -3.0517578125e-05 313.0291442871094 L -3.0517578125e-05 20.5408935546875 Z" stroke="none" fill="rgba(255,255,255,0.5)" class="fill-path"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="col-3 position-relative features-item">
+                <div class="features-box">
+                    <div>
+                        <span></span>
+                        <p>Chcesz mieszkać w standardzie premium korzystając z ciekawie zaprojektowanych i funkcjonalnych części wspólnych</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.792" viewBox="0 0 321 337.792">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.05)">
+                        <path d="M321,20.541H0L.036,358.333,321,313.029Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="rgba(255,255,255,0.5)" class="fill-path" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 mt-5 text-center">
+                <a href="{{ route('contact.index') }}" class="bttn">Kontakt z nami</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="investor" class="dark-blue-bg">
     <div class="container">
         <div class="row">
@@ -350,6 +532,8 @@
         </div>
     </div>
 @endif
+<link href="{{ asset('/css/less-partials/slick.less') }}" rel="stylesheet">
+<script src="{{ asset('/js/slick.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function(){
 
@@ -376,7 +560,13 @@
 
     $('#slider ul').responsiveSlides({
 
-    })
+    });
+
+    $('#features-carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 5,
+    });
 </script>
 {!! settings()->get("scripts_beforebody") !!}
 

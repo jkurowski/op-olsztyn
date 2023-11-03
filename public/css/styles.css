@@ -663,9 +663,59 @@ section {
   padding: 140px 0;
 }
 .features-bg {
-  background: url("../images/features-bg.jpg") no-repeat top center;
+  background: url("../images/features-bg.jpg") no-repeat top 40px center;
   background-size: cover;
-  padding-bottom: 250px;
+}
+.investement-bg {
+  background: url("../images/investment-bg.jpg") no-repeat top center;
+  background-size: cover;
+}
+.investement-bg .features-box {
+  top: 30px;
+  align-items: start;
+}
+.investement-bg .features-box span {
+  margin-bottom: 20px;
+}
+.investement-bg .features-box p {
+  font-size: 17px;
+  line-height: 25px;
+  padding: 0 23px;
+  height: auto;
+}
+#features-carousel {
+  margin: 10% 0 5%;
+}
+.features-box {
+  position: absolute;
+  top: 0;
+  bottom: 46px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.features-box span {
+  background: red;
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 0 auto 30px;
+}
+.features-box p {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 23px;
+  height: 90px;
+}
+.features-item svg {
+  width: 100%;
+  height: auto;
+}
+.features-item:hover svg .fill-path {
+  fill: #d2b465;
 }
 .distance-bg {
   background: url("../images/location-bg.jpg") no-repeat top center;
