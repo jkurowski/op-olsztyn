@@ -532,7 +532,7 @@
         </div>
     </div>
 @endif
-<link href="{{ asset('/css/less-partials/slick.less') }}" rel="stylesheet">
+<link href="{{ asset('/css/less-partials/slick.min.css') }}" rel="stylesheet">
 <script src="{{ asset('/js/slick.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function(){
