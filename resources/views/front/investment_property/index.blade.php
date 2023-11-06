@@ -131,19 +131,7 @@
                                             @enderror
                                         </div>
                                         <div class="rodo-rules">
-                                            @foreach ($rules as $r)
-                                                <div class="col-12 @error('rule_'.$r->id) is-invalid @enderror">
-                                                    <div class="rodo-rule clearfix">
-                                                        <input name="rule_{{$r->id}}" id="rule_{{$r->id}}" value="1" type="checkbox" @if($r->required === 1) class="validate[required]" @endif data-prompt-position="topLeft:0">
-                                                        <label for="rule_{{$r->id}}" class="rules-text">
-                                                            {!! $r->text !!}
-                                                            @error('rule_'.$r->id)
-                                                            <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
-                                                            @enderror
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            @endforeach
+
                                         </div>
                                     </div>
                                     <div class="row row-form-submit">
