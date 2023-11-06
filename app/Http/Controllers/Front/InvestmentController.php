@@ -23,21 +23,9 @@ class InvestmentController extends Controller
         $this->pageId = 2;
     }
 
-    public function index($slug) {
-
-        $investment = $this->repository->findBySlug($slug);
-
-        return view('front.investment.index', [
-            'rules' => RodoRules::orderBy('sort')->whereStatus(1)->get(),
-            'investment' => $investment,
-            'uniqueRooms' => $this->repository->getUniqueRooms($investment->properties),
-            'page' => Page::where('id', $this->pageId)->first(),
-        ]);
-    }
-
-    public function show($slug, Request $request)
+    public function show(Request $request)
     {
-        $investment = $this->repository->findBySlug($slug);
+        $investment = $this->repository->find(1);
         $investment_room = $investment->load(array(
             'floorRooms' => function ($query) use ($request) {
                 //$query->orderBy('highlighted', 'DESC');

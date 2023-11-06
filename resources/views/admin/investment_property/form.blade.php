@@ -104,6 +104,8 @@
                                         @include('form-elements.input-text', ['label' => 'Taras', 'sublabel'=> 'Pow. w m<sup>2</sup>, tylko liczby', 'name' => 'terrace_area', 'value' => $entry->terrace_area])
                                         @include('form-elements.input-text', ['label' => 'Taras 2', 'sublabel'=> 'Pow. w m<sup>2</sup>, tylko liczby', 'name' => 'terrace_area_2', 'value' => $entry->terrace_area_2])
                                         @include('form-elements.input-text', ['label' => 'Loggia', 'sublabel'=> 'Pow. w m<sup>2</sup>, tylko liczby', 'name' => 'loggia_area', 'value' => $entry->loggia_area])
+                                        @include('form-elements.input-text', ['label' => 'Kuchnia', 'sublabel'=> 'kuchnia/aneks', 'name' => 'kitchen', 'value' => $entry->kitchen])
+                                        @include('form-elements.input-text', ['label' => 'Termin oddania', 'name' => 'deadline', 'value' => $entry->deadline])
 
                                         @include('form-elements.html-input-text-count', ['label' => 'Nagłówek strony', 'sublabel'=> 'Meta tag - title', 'name' => 'meta_title', 'value' => $entry->meta_title, 'maxlength' => 60])
                                         @include('form-elements.html-input-text-count', ['label' => 'Opis strony', 'sublabel'=> 'Meta tag - description', 'name' => 'meta_description', 'value' => $entry->meta_description, 'maxlength' => 158])

@@ -32,6 +32,15 @@ Route::middleware(['restrictIp'])->group(function () {
     Route::get('mieszkania',
         'Front\Investment\IndexController@index')->name('investment');
 
+    Route::get('plan',
+        'Front\InvestmentController@show')->name('plan');
+
+    Route::get('/pietro/{floor}',
+        'Front\InvestmentFloorController@index')->name('floor');
+
+    Route::get('/pietro/{floor}/m/{property}',
+        'Front\InvestmentPropertyController@index')->name('property');
+
     // Gallery
     Route::get('galeria',
         'Front\GalleryController@index')->name('gallery');
@@ -56,17 +65,11 @@ Route::middleware(['restrictIp'])->group(function () {
     // Developro
     Route::group(['namespace' => 'Front', 'prefix'=>'/i', 'as' => 'front.investment.'], function() {
 
-        Route::get('/{slug}',
-            'InvestmentController@index')->name('show');
 
-        Route::get('/{slug}/plan',
-            'InvestmentController@show')->name('plan');
 
         Route::get('/{slug}/pietro/{floor}',
             'InvestmentFloorController@index')->name('floor.index');
 
-        Route::get('/{slug}/pietro/{floor}/m/{property}',
-            'InvestmentPropertyController@index')->name('property.index');
     });
 
     // Articles

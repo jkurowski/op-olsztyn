@@ -34,6 +34,8 @@ class Property extends Model
         'terrace_area_2',
         'loggia_area',
         'parking_space',
+        'kitchen',
+        'deadline',
         'garage',
         'type',
         'highlighted',

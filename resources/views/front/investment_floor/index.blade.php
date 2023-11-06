@@ -17,11 +17,11 @@
 @section('content')
     <div class="container">
         <div id="planNav" class="row">
-            <div class="col-12 col-sm-4 d-flex justify-content-start">@if($prev_floor) <a href="{{route('front.investment.floor.index', [$investment->slug, $prev_floor->id])}}" class="bttn">{{$prev_floor->name}}</a> @endif</div>
+            <div class="col-12 col-sm-4 d-flex justify-content-start">@if($prev_floor) <a href="{{route('floor', $prev_floor->id)}}" class="bttn">{{$prev_floor->name}}</a> @endif</div>
             <div class="col-12 col-sm-4 d-flex justify-content-center">
-                <a href="{{route('front.investment.plan', $investment->slug)}}" class="bttn">Plan budunku</a>
+                <a href="{{route('plan')}}" class="bttn">Plan budunku</a>
             </div>
-            <div class="col-12 col-sm-4 d-flex justify-content-end">@if($next_floor) <a href="{{route('front.investment.floor.index', [$investment->slug, $next_floor->id])}}" class="bttn">{{$next_floor->name}}</a> @endif</div>
+            <div class="col-12 col-sm-4 d-flex justify-content-end">@if($next_floor) <a href="{{route('floor', $next_floor->id)}}" class="bttn">{{$next_floor->name}}</a> @endif</div>
         </div>
     </div>
     <div class="container">
@@ -36,7 +36,7 @@
                                     @if($r->html)
                                         <area
                                                 shape="poly"
-                                                href="{{route('front.investment.property.index', ['slug' => $investment->slug, 'floor' => $r->floor_id, 'property' => $r->id])}}"
+                                                href="{{route('property', ['floor' => $r->floor_id, 'property' => $r->id])}}"
                                                 data-item="{{$r->id}}"
                                                 title="{{$r->name}}<br>Powierzchnia: <b class=fr>{{$r->area}} m<sup>2</sup></b><br />Pokoje: <b class=fr>{{$r->rooms}}</b><br><b>{{ roomStatus($r->status) }}</b>"
                                                 alt="{{$r->slug}}"
