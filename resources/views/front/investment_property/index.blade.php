@@ -23,13 +23,13 @@
             <div class="col-12 col-xl-5">
                 <div id="propertyNav" class="row">
                     <div class="col-12 col-sm-4">
-                        @if($prev) <a href="{{route('front.investment.property.index', [$investment->slug, $floor, $prev->id])}}" class="bttn">Poprzednie</a>@endif
+                        @if($prev) <a href="{{route('property', [$floor, $prev->id])}}" class="bttn">Poprzednie</a>@endif
                     </div>
                     <div class="col-12 col-sm-4">
-                        <a href="{{route('front.investment.floor.index', [$investment->slug, $floor])}}" class="bttn">Plan piętra</a>
+                        <a href="{{route('floor', $floor)}}" class="bttn">Plan piętra</a>
                     </div>
                     <div class="col-12 col-sm-4">
-                        @if($next) <a href="{{route('front.investment.property.index', [$investment->slug, $floor, $next->id])}}" class="bttn">Następne</a>@endif
+                        @if($next) <a href="{{route('property', [$floor, $next->id])}}" class="bttn">Następne</a>@endif
                     </div>
                 </div>
                 <div class="property-desc">
