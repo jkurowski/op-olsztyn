@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Nowe mieszkania na sprzedaż <br>– Apartamenty Wyzwolenia</h2>
+                <h2 class="mb-0">Nowe mieszkania na sprzedaż <br>– Apartamenty Wyzwolenia</h2>
             </div>
         </div>
     </div>
