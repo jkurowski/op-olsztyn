@@ -1,4 +1,4 @@
-@extends('layouts.page')
+@extends('layouts.page', ['body_class' => 'no-bottom'])
 
 @section('meta_title', $page->title)
 @section('seo_title', $page->meta_title)
@@ -12,8 +12,8 @@
     <section class="pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-7">
-                    <div class="pe-5">
+                <div class="col-12 col-lg-7">
+                    <div class="pe-0 pe-lg-5">
                         <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="mb-3">
                         <h2>Unikalna lokalizacja <br>- wyjątkowy projekt</h2>
                         <p><b>Wyjątkowa lokalizacja, w której powstają Apartamenty Wyzwolenia, daje ogrom możliwości na spędzanie wolnego czasu. Bliskość licznych terenów zielonych sprzyja aktywnemu spędzaniu czasu poza domem.</b></p>
@@ -24,7 +24,7 @@
                         <a href="" class="bttn mt-5">Sprawdź</a>
                     </div>
                 </div>
-                <div class="col-5 d-flex align-items-center">
+                <div class="col-12 col-lg-5 d-flex align-items-center mt-5 mt-lg-0">
                     <div>
                         <img src="{{ asset('/images/location.jpg') }}" alt="" width="770" height="770">
                     </div>
@@ -38,13 +38,13 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-8">
-                            <div class="pe-5">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.31152749308!2d20.47660066758571!3d53.77888600678762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed16eb7b1f3%3A0x1f84b9f9e83d92a!2sWyzwolenia%206%2F1%2C%2010-106%20Olsztyn!5e0!3m2!1spl!2spl!4v1698924540281!5m2!1spl!2spl" width="100%" height="550" style="border:11px solid white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-12 col-md-8 order-2 order-md-1">
+                            <div class="pt-4 pt-md-0 pe-0 pe-md-5">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.31152749308!2d20.47660066758571!3d53.77888600678762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed16eb7b1f3%3A0x1f84b9f9e83d92a!2sWyzwolenia%206%2F1%2C%2010-106%20Olsztyn!5e0!3m2!1spl!2spl!4v1698924540281!5m2!1spl!2spl" width="100%" height="550" style="border:11px solid white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe-map"></iframe>
                             </div>
                         </div>
-                        <div class="col-4 d-flex align-items-center">
-                            <div class="text-lato text-small">
+                        <div class="col-12 col-md-4 order-1 order-md-2 d-flex align-items-center text-center text-md-start">
+                            <div class="text-lato text-small w-100">
                                 <h3>BIURO SPRZEDAŻY</h3>
                                 <p class="svg-icon"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <a href="mailto:biuro@apartamenty-wyzwolenia.pl"><b>biuro@apartamenty-wyzwolenia.pl</b></a></p>
                                 <p class="svg-icon"><img src="{{ asset('/images/svg/icon-phone.svg') }}" alt="Ikonka telefonu kontaktowego"> <a href="tel:+48790201217"><b>+48 790 201 217</b></a></p>
