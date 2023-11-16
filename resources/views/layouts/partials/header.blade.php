@@ -35,7 +35,7 @@
                                     <li><a href="/">Strona główna</a></li>
                                     <li><a href="{{ route('investment') }}">Mieszkania / Lokal użytkowy</a></li>
                                     <li><a href="{{ route('location') }}">Lokalizacja</a></li>
-                                    <li><a href="{{ route('gallery') }}">Galeria</a></li>
+                                    <li class="d-none"><a href="{{ route('gallery') }}">Galeria</a></li>
                                     <li><a href="{{ route('loan') }}">Zapytaj o kredyt</a></li>
                                     <li><a href="{{ route('contact.index') }}">Kontakt</a></li>
                                 </ul>

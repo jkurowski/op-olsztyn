@@ -293,49 +293,49 @@
     </div>
 </section>
 
-<section class="distance-bg">
+<section class="distance-bg rwd-section">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div id="distance">
                     <!-- upper distances -->
-                    <div class="distance dist-top" style="left:2%">
-                        <div class="dist-mark" style="height:240px">
+                    <div class="distance dist-top " style="left:2%">
+                        <div class="dist-mark dist-mark-1" style="height:240px">
                             <span>2 min</span>
                             <p>Park podzamcze, <br>LO ii</p>
                         </div>
                     </div>
 
                     <div class="distance dist-top" style="left:23%">
-                        <div class="dist-mark" style="height:360px">
+                        <div class="dist-mark dist-mark-2" style="height:360px">
                             <span>4 min</span>
                             <p>Urząd miasta</p>
                         </div>
                     </div>
 
                     <div class="distance dist-top" style="left:39%">
-                        <div class="dist-mark" style="height:240px">
+                        <div class="dist-mark dist-mark-3" style="height:240px">
                             <span>5 min</span>
                             <p>Kino awangarda</p>
                         </div>
                     </div>
 
                     <div class="distance dist-top" style="left:53%">
-                        <div class="dist-mark" style="height:140px">
+                        <div class="dist-mark dist-mark-4" style="height:140px">
                             <span>7 min</span>
                             <p>Centrum <br>handlowe</p>
                         </div>
                     </div>
 
                     <div class="distance dist-top" style="left:74%">
-                        <div class="dist-mark" style="height:360px">
+                        <div class="dist-mark dist-mark-5" style="height:360px">
                             <span>10 min</span>
                             <p>Park centralny</p>
                         </div>
                     </div>
 
                     <div class="distance dist-top" style="left:85%">
-                        <div class="dist-mark" style="height:185px">
+                        <div class="dist-mark dist-mark-6" style="height:185px">
                             <span>15 min</span>
                             <p>Las miejski</p>
                         </div>
@@ -343,42 +343,42 @@
 
                     <!-- bottom distances -->
                     <div class="distance dist-bottom" style="left:5%">
-                        <div class="dist-mark" style="height: 240px">
+                        <div class="dist-mark dist-mark-7" style="height: 240px">
                             <span>2 min</span>
                             <p>Sklep <br>spożywczy</p>
                         </div>
                     </div>
 
                     <div class="distance dist-bottom" style="left:20%">
-                        <div class="dist-mark" style="height: 485px">
+                        <div class="dist-mark dist-mark-8" style="height: 485px">
                             <span>4 min</span>
                             <p class="big-p">Przystanek komunikacji <br>miejskiej (autobus, tramwaj)</p>
                         </div>
                     </div>
 
                     <div class="distance dist-bottom" style="left:33%">
-                        <div class="dist-mark" style="height: 355px">
+                        <div class="dist-mark dist-mark-9" style="height: 355px">
                             <span>4 min</span>
                             <p>Przedszkole</p>
                         </div>
                     </div>
 
                     <div class="distance dist-bottom" style="left:45%">
-                        <div class="dist-mark" style="height: 220px">
+                        <div class="dist-mark dist-mark-10" style="height: 220px">
                             <span>5 min</span>
                             <p>Stare Miasto <br>(restauracje, pub-y) </p>
                         </div>
                     </div>
 
                     <div class="distance dist-bottom" style="left:69%">
-                        <div class="dist-mark" style="height: 415px">
+                        <div class="dist-mark dist-mark-11" style="height: 415px">
                             <span>8 min</span>
                             <p>Szkoła podstawowa</p>
                         </div>
                     </div>
 
                     <div class="distance dist-bottom" style="left:81%">
-                        <div class="dist-mark" style="height: 220px">
+                        <div class="dist-mark dist-mark-12" style="height: 220px">
                             <span>10 min</span>
                             <p>Teatr im. stefana <br>jaracza</p>
                         </div>
@@ -408,11 +408,11 @@
             </div>
         </div>
 
-        <div class="row mt-5">
-            <div class="col-3 position-relative features-item">
+        <div class="row mt-0 mt-xl-5">
+            <div class="col-12 col-sm-6 col-xl-3 position-relative features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span><img src="{{ asset('/images/icons/kawiarnia.png') }}" width="150" height="150" alt="Kawiarnie"></span>
                         <p>Byciu w centrum wydarzeń – i mieć pod ręką instytucje kultury, ulubione kawiarnie i restauracje, kluby</p>
                     </div>
                 </div>
@@ -424,10 +424,10 @@
                 </svg>
             </div>
 
-            <div class="col-3 position-relative features-item">
+            <div class="col-12 col-sm-6 col-xl-3 position-relative features-item mt-4 mt-sm-0">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span><img src="{{ asset('/images/icons/bliskosc_natury.png') }}" width="150" height="150" alt="Kawiarnie"></span>
                         <p>Nie chcesz mieszkać gdziekolwiek – chcesz żyć w miejscu, które będzie Cię na co dzień inspirować, z bliskością natury</p>
                     </div>
                 </div>
@@ -439,10 +439,10 @@
                 </svg>
             </div>
 
-            <div class="col-3 position-relative features-item">
+            <div class="col-12 col-sm-6 col-xl-3 position-relative features-item mt-4 mt-xl-0">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span><img src="{{ asset('/images/icons/rower.png') }}" width="150" height="150" alt="Kawiarnie"></span>
                         <p>Szukasz nowego mieszkania w centrum Olsztyna, dzięki któremu ograniczysz jazdę samochodem, a częściej będziesz korzystać z roweru lub komunikacji miejskiej
                         </p>
                     </div>
@@ -455,10 +455,10 @@
                 </svg>
             </div>
 
-            <div class="col-3 position-relative features-item">
+            <div class="col-12 col-sm-6 col-xl-3 position-relative features-item mt-4 mt-xl-0">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span><img src="{{ asset('/images/icons/premium.png') }}" width="150" height="150" alt="Kawiarnie"></span>
                         <p>Chcesz mieszkać w standardzie premium korzystając z ciekawie zaprojektowanych i funkcjonalnych części wspólnych</p>
                     </div>
                 </div>
