@@ -8,7 +8,7 @@
                     @endif
                     <div class="col-12 col-md col-top p-0 d-flex align-items-center justify-content-center justify-content-md-start">
                         <a href="{{route('property', ['floor' => $room->floor_id, 'property' => $room->id])}}">
-                            <h2>{{$room->name_list}}</h2>
+                            <h2>{{$room->name}}</h2>
                         </a>
                     </div>
                     <div class="col-6 col-md justify-content-center">
@@ -46,5 +46,12 @@
                 </div>
             </div>
         @endif
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg-9">
+            <p class="text-center"><b>Wszystkie atuty tego kameralnego budynku oraz jego okolic sprawią, że Apartamenty Wyzwolenia będą najlepszym wyborem podczas poszukiwania nowego mieszkania w Olsztynie.</b></p>
+        </div>
     </div>
 </div>

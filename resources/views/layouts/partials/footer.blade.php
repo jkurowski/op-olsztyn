@@ -22,7 +22,7 @@
             </div>
             <div class="col-12 col-sm-4 text-center text-sm-start">
                 <h4>Kontakt</h4>
-                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <a href="mailto:biuro@apartamenty-wyzwolenia.pl"><b>biuro@apartamenty-wyzwolenia.pl</b></a></p>
+                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <a href="{{ route('contact.index') }}"><b>biuro@apartamenty-wyzwolenia.pl</b></a></p>
                 <p class="svg-icon"><img src="{{ asset('/images/svg/icon-phone.svg') }}" alt="Ikonka telefonu kontaktowego"> <a href="tel:+48790201217"><b>+48 790 201 217</b></a></p>
                 <p class="svg-icon"><img src="{{ asset('/images/svg/icon-location.svg') }}" alt="Ikonka lokalizacji"> <b>ul. Wyzwolenia 6/1, 10-105 Olsztyn</b></p>
             </div>
@@ -31,10 +31,10 @@
         <div class="row mt-3 mt-xl-5">
             <div class="col-12 text-center">
                 <p class="svg-icon d-inline-flex me-3 me-md-5">
-                    <img src="{{ asset('/images/svg/icon-instagram.svg') }}" alt="Ikonka Instagram"> <a href="">apartamenty_wyzwolenia</a>
+                    <img src="{{ asset('/images/svg/icon-instagram.svg') }}" alt="Ikonka Instagram"> <a href="https://www.instagram.com/apartamenty_wyzwolenia/" target="_blank">apartamenty_wyzwolenia</a>
                 </p>
                 <p class="svg-icon d-inline-flex">
-                    <img src="{{ asset('/images/svg/icon-facebook.svg') }}" alt="Ikonka Facebook"> <a href="">ApartamentyWyzwoleniaOlsztyn</a>
+                    <img src="{{ asset('/images/svg/icon-facebook.svg') }}" alt="Ikonka Facebook"> <a href="https://www.facebook.com/Apartamenty-Wyzwolenia-105418095119828/?ref=page_internal" target="_blank">ApartamentyWyzwoleniaOlsztyn</a>
                 </p>
             </div>
         </div>

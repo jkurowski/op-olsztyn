@@ -17,7 +17,7 @@
                     <h1 class="h2">Kontakt</h1>
                 </div>
                 <div class="col-12 col-lg-8 col-xl-6 text-center">
-                    <p><b>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</b></p>
+                    <p><b>Masz pytanie? Napisz do nas!</b></p>
                 </div>
             </div>
             <div class="row">
@@ -119,9 +119,6 @@
                     <div class="col-12 text-center">
                         <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="m-auto mb-3">
                         <h1 class="h2">Biuro sprzedaży</h1>
-                    </div>
-                    <div class="col-12 col-lg-8 col-xl-6 text-center">
-                        <p><b>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</b></p>
                     </div>
                 </div>
 

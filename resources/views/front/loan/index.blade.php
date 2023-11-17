@@ -15,7 +15,8 @@
                 <div class="col-12 col-lg-7">
                     <div class="pe-0 pe-lg-5">
                         <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="mb-3">
-                        <h2>Pomoc w finansowaniu</h2>
+                        <h2 class="mb-0">Pomoc w finansowaniu</h2>
+                        <h4 class="text-gold mb-4 font-lato">Pomagamy skorzystać z dopłat programu "Bezpieczny Kredyt 2%"</h4>
                         <p>Wspieramy naszych klientów w spełnianiu marzeń o własnym mieszkaniu, oferując im pomoc w uzyskaniu kredytu hipotecznego. Nasi eksperci w biurze dewelopera bezpłatnie pomagają klientom w uzyskaniu wszystkich informacji o zakupie nieruchomości.</p>
                         <p>&nbsp;</p>
                         <p>Na podstawie uzyskanych danych:</p>

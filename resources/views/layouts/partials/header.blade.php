@@ -15,16 +15,16 @@
                             <div class="top">
                                 <ul class="mb-0 list-unstyled">
                                     <li>
-                                        <a href="mailto:biuro@apartamenty-wyzwolenia.pl"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <b>biuro@apartamenty-wyzwolenia.pl</b></a>
+                                        <a href="{{ route('contact.index') }}"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <b>biuro@apartamenty-wyzwolenia.pl</b></a>
                                     </li>
                                     <li class="ms-2 ms-md-4">
                                         <a href="tel:+48790201217"><img src="{{ asset('/images/svg/icon-phone.svg') }}" alt="Ikonka telefonu kontaktowego"> <b>+48 790 201 217</b></a>
                                     </li>
                                     <li class="ms-2 ms-md-4">
-                                        <a href=""><img src="{{ asset('/images/svg/icon-facebook.svg') }}" alt="Ikonka Facebook"></a>
+                                        <a href="https://www.facebook.com/Apartamenty-Wyzwolenia-105418095119828/?ref=page_internal" target="_blank"><img src="{{ asset('/images/svg/icon-facebook.svg') }}" alt="Ikonka Facebook"></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="{{ asset('/images/svg/icon-instagram.svg') }}" alt="Ikonka Instagram" class="m-0"></a>
+                                        <a href="https://www.instagram.com/apartamenty_wyzwolenia/" target="_blank"><img src="{{ asset('/images/svg/icon-instagram.svg') }}" alt="Ikonka Instagram" class="m-0"></a>
                                     </li>
                                 </ul>
                             </div>

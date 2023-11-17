@@ -276,6 +276,12 @@ iframe {
 .text-lato > * {
   font-family: 'Lato', sans-serif;
 }
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+h4.font-lato {
+  font-size: 24px;
+}
 .text-small p,
 .text-small li {
   font-size: 18px;
@@ -1962,6 +1968,11 @@ form .col-input-important {
   .investement-bg .features-box {
     width: 250px;
     margin: 0 auto;
+  }
+  .distance-bg {
+    margin-left: -13px;
+    margin-right: -13px;
+    padding: 30px 13px;
   }
 }
 /* end of 575.98 */

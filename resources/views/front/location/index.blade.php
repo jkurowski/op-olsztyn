@@ -21,7 +21,7 @@
                         <p>Zaledwie 15 minut pieszo dojdziesz do największego Lasu Miejskiego w Olsztynie, a w ciągu 10 minut do Parku Centralnego. Do historycznego Starego Miasta dojdziesz w 5 minut piechotą by zobaczyć jeden z najbardziej charakterystycznych zabytków Olsztyna Wysoką Bramę, dalej plac, który powstał w 1378 roku, kościół Ewangelicko-Augsburski, pomnik Mikołaja Kopernika, katedra z XV wieku, czy zamek Kapituły Warmińskiej.</p>
                         <p>&nbsp;</p>
                         <p>Stare Miasto to także największe kulinarne centrum Olsztyna, wypełnione restauracjami, cukierniami i klubami. </p>
-                        <a href="" class="bttn mt-5">Sprawdź</a>
+                        <a href="{{ route('investment') }}" class="bttn mt-4 mt-md-5">Sprawdź</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 d-flex align-items-center mt-5 mt-lg-0">
@@ -204,42 +204,42 @@
                     <div id="distance">
                         <!-- upper distances -->
                         <div class="distance dist-top" style="left:2%">
-                            <div class="dist-mark" style="height:240px">
+                            <div class="dist-mark dist-mark-1" style="height:240px">
                                 <span>2 min</span>
                                 <p>Park podzamcze, <br>LO ii</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:23%">
-                            <div class="dist-mark" style="height:360px">
+                            <div class="dist-mark dist-mark-2" style="height:360px">
                                 <span>4 min</span>
                                 <p>Urząd miasta</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:39%">
-                            <div class="dist-mark" style="height:240px">
+                            <div class="dist-mark dist-mark-3" style="height:240px">
                                 <span>5 min</span>
                                 <p>Kino awangarda</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:53%">
-                            <div class="dist-mark" style="height:140px">
+                            <div class="dist-mark dist-mark-4" style="height:140px">
                                 <span>7 min</span>
                                 <p>Centrum <br>handlowe</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:74%">
-                            <div class="dist-mark" style="height:360px">
+                            <div class="dist-mark dist-mark-5" style="height:360px">
                                 <span>10 min</span>
                                 <p>Park centralny</p>
                             </div>
                         </div>
 
                         <div class="distance dist-top" style="left:85%">
-                            <div class="dist-mark" style="height:185px">
+                            <div class="dist-mark dist-mark-6" style="height:185px">
                                 <span>15 min</span>
                                 <p>Las miejski</p>
                             </div>
@@ -247,42 +247,42 @@
 
                         <!-- bottom distances -->
                         <div class="distance dist-bottom" style="left:5%">
-                            <div class="dist-mark" style="height: 240px">
+                            <div class="dist-mark dist-mark-7" style="height: 240px">
                                 <span>2 min</span>
                                 <p>Sklep <br>spożywczy</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:20%">
-                            <div class="dist-mark" style="height: 485px">
+                            <div class="dist-mark dist-mark-8" style="height: 485px">
                                 <span>4 min</span>
                                 <p class="big-p">Przystanek komunikacji <br>miejskiej (autobus, tramwaj)</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:33%">
-                            <div class="dist-mark" style="height: 355px">
+                            <div class="dist-mark dist-mark-9" style="height: 355px">
                                 <span>4 min</span>
                                 <p>Przedszkole</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:45%">
-                            <div class="dist-mark" style="height: 220px">
+                            <div class="dist-mark dist-mark-10" style="height: 220px">
                                 <span>5 min</span>
                                 <p>Stare Miasto <br>(restauracje, pub-y) </p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:69%">
-                            <div class="dist-mark" style="height: 415px">
+                            <div class="dist-mark dist-mark-11" style="height: 415px">
                                 <span>8 min</span>
                                 <p>Szkoła podstawowa</p>
                             </div>
                         </div>
 
                         <div class="distance dist-bottom" style="left:81%">
-                            <div class="dist-mark" style="height: 220px">
+                            <div class="dist-mark dist-mark-12" style="height: 220px">
                                 <span>10 min</span>
                                 <p>Teatr im. stefana <br>jaracza</p>
                             </div>

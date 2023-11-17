@@ -31,8 +31,8 @@
                     <div class="col-6 position-relative d-flex align-items-center">
                         <div class="slider-apla">
                             <h1>Tu jest pięknie odwiedź nas!</h1>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-                            <a href="" class="bttn">Zobacz więcej</a>
+                            <p>To niezwykła lokalizacja świetnie skomunikowana z każdą inną częścią miasta</p>
+                            <a href="{{ route('location') }}" class="bttn">Zobacz więcej</a>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="671.5" height="707.61" viewBox="0 0 671.5 707.61">
                             <g id="Path_1600" data-name="Path 1600" transform="translate(0 -20.541)" fill="rgba(255,255,255,0.66)">
