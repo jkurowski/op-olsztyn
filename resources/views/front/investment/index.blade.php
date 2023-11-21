@@ -46,7 +46,7 @@
                     <h2>Mieszkania w Olsztynie na sprzedaż <br>- Apartamenty Wyzwolenia</h2>
                 </div>
                 <div class="col-12 col-md-6">
-                    <p><b>Apartamenty Wyzwolenia oferują szeroki wybór nowych mieszkań od 1 do 4 pokoi o przemyślanych i funkcjonalnych rozkładach, w metrażach od 30,36 do 125,97 m<sup>2</sup>. Każdy apartament wyposażony będzie w ponadnormatywne okna, duże balkony do 16 m<sup>2</sup>, tarasy do 83 m<sup>2</sup> i loggie do ….m<sup>2</sup>, które pozwolą docenić walory widokowe otoczenia.</b></p>
+                    <p><b>Apartamenty Wyzwolenia oferują szeroki wybór nowych mieszkań od 1 do 4 pokoi o przemyślanych i funkcjonalnych rozkładach, w metrażach od 30,36 do 125,97 m<sup>2</sup>. Każdy apartament wyposażony będzie w ponadnormatywne okna, duże balkony do 16 m<sup>2</sup>, tarasy do 83 m<sup>2</sup> i loggie do 16 m<sup>2</sup>, które pozwolą docenić walory widokowe otoczenia.</b></p>
                     <p>&nbsp;</p>
                     <p>Poczucie bezpieczeństwa w tym kameralnym budynku zapewni monitoring. Uzupełnieniem komfortu mieszkańców Apartamentów Wyzwolenia będzie nowoczesna strefa fitness oraz wyjątkowa i kolorowa sala dla dzieci. Dodatkowo zaplanowane lokale usługowe mieszczące się na parterze budynku.
                     </p>

@@ -112,12 +112,14 @@
         </div>
     </div>
 
-    <div class="container-fluid p-0">
-        <div class="row no-gutters" id="features-carousel">
+    <div class="container p-0">
+        <div class="row" id="features-carousel">
             <div class="col-3 features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span>
+                            <img src="{{ asset('/images/icons/panele-icon.png') }}" alt="" width="75" height="75">
+                        </span>
                         <p>Części wspólne zasilane panelami fotowoltaicznymi</p>
                     </div>
                 </div>
@@ -131,7 +133,9 @@
             <div class="col-3 features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span>
+                            <img src="{{ asset('/images/icons/przy-lesie-icon.png') }}" alt="" width="75" height="75">
+                        </span>
                         <p>Przy największym Lesie Miejskim (ponad 1400 ha zieleni)</p>
                     </div>
                 </div>
@@ -145,7 +149,9 @@
             <div class="col-3 features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span>
+                            <img src="{{ asset('/images/icons/wyjatkowa-lokalizacja-icon.png') }}" alt="" width="75" height="75">
+                        </span>
                         <p>Wyjątkowa lokalizacja z widokiem na Stare Miasto </p>
                     </div>
                 </div>
@@ -159,7 +165,9 @@
             <div class="col-3 features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span>
+                            <img src="{{ asset('/images/icons/stacja-ladowania-icon.png') }}" alt="" width="75" height="75">
+                        </span>
                         <p>Instalacja do ładowania samochodów elektrycznych</p>
                     </div>
                 </div>
@@ -173,7 +181,9 @@
             <div class="col-3 features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span>
+                            <img src="{{ asset('/images/icons/sciezka-rowerowa-icon.png') }}" alt="" width="75" height="75">
+                        </span>
                         <p>Przy Parku Podzamcze – miejsce na aktywność – bieganie, ścieżka rowerowa - Łynostrada</p>
                     </div>
                 </div>
@@ -187,7 +197,9 @@
             <div class="col-3 features-item">
                 <div class="features-box">
                     <div>
-                        <span></span>
+                        <span>
+                            <img src="{{ asset('/images/icons/strefa-fitness-icon.png') }}" alt="" width="75" height="75">
+                        </span>
                         <p>Nowoczesna strefa fitness</p>
                     </div>
                 </div>
@@ -563,9 +575,31 @@
     });
 
     $('#features-carousel').slick({
-        centerMode: true,
-        centerPadding: '60px',
-        slidesToShow: 5,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+
+                }
+            }
+        ]
     });
 </script>
 {!! settings()->get("scripts_beforebody") !!}

@@ -1463,6 +1463,11 @@ form .col-input-important {
     height: 50px;
     margin-top: 20px;
   }
+  .features-box p {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 20px;
+  }
 }
 @media (max-width: 1199.98px) {
   .h2,
