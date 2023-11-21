@@ -5,9 +5,11 @@
 @section('seo_description', $page->meta_description)
 @section('seo_robots', $page->meta_robots)
 
-@section('content')
-    @include('layouts.partials.page-header', ['page' => $page])
+@section('pageheader')
+    @include('layouts.partials.page-header', ['page' => $page, 'header_file' => 'location.jpg'])
+@stop
 
+@section('content')
     <div id="page-content">
         <div class="container">
             <div class="row">
@@ -24,6 +26,3 @@
         </div>
     </div>
 @endsection
-@push('scripts')
-
-@endpush

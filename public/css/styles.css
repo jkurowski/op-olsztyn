@@ -907,7 +907,9 @@ section {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .svg-box h2 {
   font-family: 'Lato', sans-serif;
@@ -926,11 +928,17 @@ section {
   stroke-width: 1px;
   transition: stroke 0.2s;
 }
-.svg-box:hover svg path {
+.svg-box:hover svg path,
+.svg-box.active svg path {
   stroke: var(--main-color-gold);
 }
-.svg-box:hover h2 {
+.svg-box:hover h2,
+.svg-box.active h2 {
   color: var(--main-color-gold);
+}
+.svg-box:hover img,
+.svg-box.active img {
+  filter: invert(76%) sepia(32%) saturate(586%) hue-rotate(5deg) brightness(93%) contrast(81%);
 }
 .svg-box-tab {
   width: 100%;
@@ -939,7 +947,7 @@ section {
   border: 1px solid #dcc78f;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   position: relative;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 .svg-box-tab-icon {
   width: 160px;
@@ -952,6 +960,13 @@ section {
   right: 0;
   margin: auto;
   top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg-box-tab-icon img {
+  filter: invert(76%) sepia(32%) saturate(586%) hue-rotate(5deg) brightness(93%) contrast(81%);
+  max-width: 100px;
 }
 .svg-box-tab h2 {
   font-family: 'Lato', sans-serif;

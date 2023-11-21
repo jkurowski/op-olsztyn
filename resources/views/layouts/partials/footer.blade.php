@@ -18,6 +18,7 @@
                     <li class="d-none"><a href="{{ route('gallery') }}">Galeria</a></li>
                     <li><a href="{{ route('loan') }}">Zapytaj o kredyt</a></li>
                     <li><a href="{{ route('contact.index') }}">Kontakt</a></li>
+                    <li><a href="/polityka-prywatnosci">Polityka prywatności</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-4 text-center text-sm-start">

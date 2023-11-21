@@ -62,13 +62,13 @@
 
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="svg-box">
+            <div class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <div class="col-3 nav-item" role="presentation">
+                    <div id="pills-work-tab" data-bs-toggle="pill" data-bs-target="#pills-work" role="tab" aria-controls="pills-work" aria-selected="true" class="svg-box active">
                         <div class="svg-box-content">
                             <div>
                                 <div class="svg-box-icon">
-
+                                    <img src="{{ asset('/images/svg/praca-edukacja-icon.svg') }}" alt="Ikonka pracy i edukacji">
                                 </div>
                                 <h2>Praca i Edukacja</h2>
                             </div>
@@ -93,12 +93,12 @@
                     </div>
                 </div>
 
-                <div class="col-3">
-                    <div class="svg-box">
+                <div class="col-3 nav-item" role="presentation">
+                    <div id="pills-sport-tab" data-bs-toggle="pill" data-bs-target="#pills-sport" role="tab" aria-controls="pills-sport" aria-selected="false" class="svg-box">
                         <div class="svg-box-content">
                             <div>
                                 <div class="svg-box-icon">
-
+                                    <img src="{{ asset('/images/svg/sport-natura-icon.svg') }}" alt="Ikonka sportu i natury">
                                 </div>
                                 <h2>Sport i natura</h2>
                             </div>
@@ -123,12 +123,12 @@
                     </div>
                 </div>
 
-                <div class="col-3">
-                    <div class="svg-box">
+                <div class="col-3 nav-item" role="presentation">
+                    <div id="pills-fun-tab" data-bs-toggle="pill" data-bs-target="#pills-fun" role="tab" aria-controls="pills-fun" aria-selected="false" class="svg-box">
                         <div class="svg-box-content">
                             <div>
                                 <div class="svg-box-icon">
-
+                                    <img src="{{ asset('/images/svg/kultura-rozrywka-icon.svg') }}" alt="Ikonka kultury i rozrywki">
                                 </div>
                                 <h2>Kultura i rozrywka</h2>
                             </div>
@@ -153,12 +153,12 @@
                     </div>
                 </div>
 
-                <div class="col-3">
-                    <div class="svg-box">
+                <div class="col-3 nav-item" role="presentation">
+                    <div id="pills-bus-tab" data-bs-toggle="pill" data-bs-target="#pills-bus" role="tab" aria-controls="pills-bus" aria-selected="false" class="svg-box">
                         <div class="svg-box-content">
                             <div>
                                 <div class="svg-box-icon">
-
+                                    <img src="{{ asset('/images/svg/komunikacja-icon.svg') }}" alt="Ikonka komunikacji">
                                 </div>
                                 <h2>Komunikacja</h2>
                             </div>
@@ -185,12 +185,37 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="svg-box-tab">
-                        <div class="svg-box-tab-icon"></div>
-                        <h2>Kultura i rozrywka</h2>
-                        <p><b>W odległości zaledwie 5 minut od inwestycji dojdziemy do terenów zielonych wokół Zamku Kapituły Warmińskiej. Znajdują się tu zabytki architektoniczne, plac zabaw, fontanna i amfiteatr. Spacerem około 10 minut możemy znaleźć się po drugiej stronie Rynku Starego Miasta, gdzie zlokalizowany jest park Centralny, o powierzchni blisko 13 hektarów.</b></p>
-                        <p>&nbsp;</p>
-                        <p>Przemyślana infrastruktura parku oferuje odwiedzającym wyjątkowe walory przyrodnicze i rekreacyjne. Znajdują się tutaj aż 4 mosty łączące brzegi Łyny, przystań kajakowa, a także przede wszystkim mnóstwo ścieżek rowerowych i pieszych. W pobliżu inwestycji znajduje się także największy Las Miejski w Olsztynie o powierzchni 1400 hektarów, w którym znajdują się liczne ścieżki rowerowe, biegowe, tory saneczkowe oraz przyrodnicze ścieżki edukacyjne.</p>
+                    <div class="tab-content" id="pills-tabContent">
+
+                    <div class="tab-pane svg-box-tab fade show active" id="pills-work" role="tabpanel" aria-labelledby="pills-work-tab" tabindex="0">
+                        <div class="svg-box-tab-icon">
+                            <img src="{{ asset('/images/svg/praca-edukacja-icon.svg') }}" alt="Ikonka pracy i edukacji">
+                        </div>
+                        <h2>PRACA I EDUKACJA</h2>
+                        <p>Piechotą do pracy, szkoły, czy przedszkola? To możliwe. Jeśli pracujesz blisko centrum miasta nie będziesz tracić czasu na stanie w korkach. Spokojnie dopijasz kawę i spacerem docierasz do wszystkich ważnych dla siebie miejsc w Olsztynie. Do dwóch najbliższych żłobków jest tylko 1,5 km, do przedszkola – 220 m. Spacerem 8 minutowym dojdziesz do Szkoły Podstawowej, zaś do Zespołu Szkół Ogólnokształcących – 2 minutowym. W okolicy inwestycji Apartamenty Wyzwolenia znajduje się kilka szkół językowych.</p>
+                    </div>
+                    <div class="tab-pane svg-box-tab fade" id="pills-sport" role="tabpanel" aria-labelledby="pills-sport-tab" tabindex="0">
+                        <div class="svg-box-tab-icon">
+                            <img src="{{ asset('/images/svg/sport-natura-icon.svg') }}" alt="Ikonka sportu i natury">
+                        </div>
+                        <h2>SPORT I NATURA</h2>
+                        <p>W odległości zaledwie 5 minut od inwestycji dojdziemy do terenów zielonych wokół Zamku Kapituły Warmińskiej. Znajdują się tu zabytki architektoniczne, plac zabaw, fontanna i amfiteatr. Spacerem około 10 minut możemy znaleźć się po drugiej stronie Rynku Starego Miasta, gdzie zlokalizowany jest park Centralny, o powierzchni blisko 13 hektarów. Przemyślana infrastruktura parku oferuje odwiedzającym wyjątkowe walory przyrodnicze i rekreacyjne. Znajdują się tutaj aż 4 mosty łączące brzegi Łyny, przystań kajakowa, a także przede wszystkim mnóstwo ścieżek rowerowych i pieszych. W pobliżu inwestycji znajduje się także największy Las Miejski w Olsztynie o powierzchni 1400 hektarów, w którym znajdują się liczne ścieżki rowerowe, biegowe, tory saneczkowe oraz przyrodnicze ścieżki edukacyjne. </p>
+                    </div>
+                    <div class="tab-pane svg-box-tab fade" id="pills-fun" role="tabpanel" aria-labelledby="pills-fun-tab" tabindex="0">
+                        <div class="svg-box-tab-icon">
+                            <img src="{{ asset('/images/svg/kultura-rozrywka-icon.svg') }}" alt="Ikonka kultury i rozrywki">
+                        </div>
+                        <h2>KULTURA I ROZRYWKA</h2>
+                        <p>Koncert w filharmonii, czy teatr w tygodniu? Dzięki lokalizacji inwestycji w ścisłym centrum Olsztyna obiekty kultury, rozrywki, czy zabytki tj. – Teatr Jaracza, Muzeum Warmii i Mazur, Zamek Kapituły Warmińskiej, Katedra, pomnik Mikołaja Kopernika, Filharmonia, czy Multikino, Kino Awangarda oraz Stare Miasto z bogactwem restauracji, pubów, cukierni i klubów - są w zasięgu ręki. </p>
+                    </div>
+                    <div class="tab-pane svg-box-tab fade" id="pills-bus" role="tabpanel" aria-labelledby="pills-bus-tab" tabindex="0">
+                        <div class="svg-box-tab-icon">
+                            <img src="{{ asset('/images/svg/komunikacja-icon.svg') }}" alt="Ikonka komunikacji">
+                        </div>
+                        <h2>KOMUNIKACJA</h2>
+                        <p>Tak blisko jak tylko potrzebujesz. Ty wybierasz, którym środkiem komunikacji chcesz się poruszać autobus, tramwaj, rower, czy własne auto. Zaledwie w 5 minut pieszo dojdziesz do przystanków autobusowych, a tylko 4 minuty do przystanku tramwajowego Wysoka Brama. Wybierając samochód w ciągu 5 minut dojedziesz do ulicy Artyleryjskiej, która stanowi jedną z głównych arterii miasta i est trasą wylotową z Olsztyna w kierunku Morąg, Ostróda, Trójmiasto. Natomiast w 3 minuty znajdziesz się na ulicy Warszawskiej, którą wyjedziesz z Olsztyna w kierunku Olsztynka, czy Warszawy. W Apartamentach Wyzwolenia nie tylko bliskość, ale także komfort życia w mieście zdefiniujesz na nowo.</p>
+                    </div>
+
                     </div>
                 </div>
             </div>
@@ -296,6 +321,11 @@
 
 @push('scripts')
     <script>
-
+        $(document).ready(function() {
+            $('.svg-box').on('click', function() {
+                $('.svg-box').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
     </script>
 @endpush
