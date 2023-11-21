@@ -210,6 +210,22 @@
                     </g>
                 </svg>
             </div>
+            <div class="col-3 features-item">
+                <div class="features-box">
+                    <div>
+                        <span>
+                            <img src="{{ asset('/images/icons/icon-playroom.png') }}" alt="" width="75" height="75">
+                        </span>
+                        <p>Niezwykła i kolorowa sala <br>Kids Playroom</p>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="337.793" viewBox="0 0 321 337.793">
+                    <g transform="translate(0 -20.541)" fill="rgba(255,255,255,0.95)">
+                        <path d="M 0.5357722640037537 357.7578735351562 L 0.5000530481338501 21.0408992767334 L 320.5 21.0408992767334 L 320.5 312.5947875976562 L 0.5357722640037537 357.7578735351562 Z" stroke="none"/>
+                        <path d="M 1.000091552734375 21.5408935546875 L 1.03570556640625 357.182373046875 L 320 312.160400390625 L 320 21.5408935546875 L 1.000091552734375 21.5408935546875 M 0 20.5408935546875 L 321 20.5408935546875 L 321 313.0291442871094 L 0.03582763671875 358.3334045410156 L 0 20.5408935546875 Z" stroke="none" fill="#d2b465"/>
+                    </g>
+                </svg>
+            </div>
         </div>
     </div>
 </section>
@@ -274,6 +290,14 @@
                 <div class="circle-box">
                     <div class="circle-box-icon">
                         <img src="{{ asset('/images/icons/icon-balcony.png') }}" alt="" width="85" height="85">
+                    </div>
+                    <p>Balkony wykończone gresem</p>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2 p-0">
+                <div class="circle-box">
+                    <div class="circle-box-icon">
+                        <img src="{{ asset('/images/icons/playground-icon.png') }}" alt="" width="85" height="85">
                     </div>
                     <p>Balkony wykończone gresem</p>
                 </div>
