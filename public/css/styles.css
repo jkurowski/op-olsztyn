@@ -563,6 +563,17 @@ header nav ul li a {
 header nav ul li a:hover {
   color: var(--main-color-orange);
 }
+header nav ul li.active:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: #e8ddc2;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 87px;
+}
 header nav ul li:hover ul.submenu {
   top: 100%;
   display: block;

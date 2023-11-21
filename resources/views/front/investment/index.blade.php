@@ -16,7 +16,7 @@
                     <div class="pe-0 pe-lg-5">
                         <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="mb-3">
                         <h2>Nowe mieszkania na sprzedaż - Apartamenty Wyzwolenia </h2>
-                        <p><b>W odległości zaledwie 5 minut pieszo od Starego Miasta powstaje kameralny 8-piętrowy budynek Apartamenty Wyzwolenia. Ta wyjątkowa lokalizacja, która łączy cechy nowego mieszkania w cichej okolicy z dostępem do pełnej infrastruktury.
+                        <p><b>W odległości zaledwie 5 minut pieszo od Starego Miasta powstaje kameralny 7-piętrowy budynek Apartamenty Wyzwolenia. Ta wyjątkowa lokalizacja, która łączy cechy nowego mieszkania w cichej okolicy z dostępem do pełnej infrastruktury.
                             </b></p>
                         <p>&nbsp;</p>
                         <p>Bliskość Starego Miasta to niezależność i komfort, który otwiera dla mieszkańców Apartamentów Wyzwolenia dostęp do szerokiej oferty miasta. Bogaty repertuar Teatru Jaracza, Filharmonii, czy klimatyczne restauracje, kina i kawiarnie, to tylko niektóre z okolicznych atrakcji.</p>
@@ -46,9 +46,9 @@
                     <h2>Mieszkania w Olsztynie na sprzedaż <br>- Apartamenty Wyzwolenia</h2>
                 </div>
                 <div class="col-12 col-md-6">
-                    <p><b>Apartamenty Wyzwolenia oferują szeroki wybór nowych mieszkań od 1 do 4 pokoi o przemyślanych i funkcjonalnych rozkładach, w metrażach od 30,36 do 125,97 mkw. Każdy apartament wyposażony będzie w ponadnormatywne okna, duże balkony do …. mkw  i loggie do ….mkw, które pozwolą docenić walory widokowe otoczenia.</b></p>
+                    <p><b>Apartamenty Wyzwolenia oferują szeroki wybór nowych mieszkań od 1 do 4 pokoi o przemyślanych i funkcjonalnych rozkładach, w metrażach od 30,36 do 125,97 m<sup>2</sup>. Każdy apartament wyposażony będzie w ponadnormatywne okna, duże balkony do 16 m<sup>2</sup>, tarasy do 83 m<sup>2</sup> i loggie do ….m<sup>2</sup>, które pozwolą docenić walory widokowe otoczenia.</b></p>
                     <p>&nbsp;</p>
-                    <p>Bezpieczeństwo w tym kameralnym budynku zapewni podgląd z kamer monitoringu. Uzupełnieniem komfortu mieszkańców Apartamentów Wyzwolenia będzie nowoczesna strefa fitness oraz wyjątkowa i kolorowa sala dla dzieci. Dodatkowo zaplanowane lokale usługowe mieszczące się na parterze budynku.
+                    <p>Poczucie bezpieczeństwa w tym kameralnym budynku zapewni monitoring. Uzupełnieniem komfortu mieszkańców Apartamentów Wyzwolenia będzie nowoczesna strefa fitness oraz wyjątkowa i kolorowa sala dla dzieci. Dodatkowo zaplanowane lokale usługowe mieszczące się na parterze budynku.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">

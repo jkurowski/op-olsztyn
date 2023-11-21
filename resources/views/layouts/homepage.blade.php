@@ -85,7 +85,7 @@
                 <h2>Inwestycja – idealna dla Ciebie</h2>
             </div>
             <div class="col-12 col-md-6">
-                <p><b>Projekt zakłada budowę 7-piętrowego budynku o ciekawej, nowoczesnej kaskadowej bryle. W budynku powstaną łącznie 104 apartamenty oraz 2 lokale o charakterze usługowym. Każdy apartament dysponować będzie przestrzennym balkonem/loggią  do 16 mkw, tarasem do 90 mkw lub ogródkiem o powierzchni do 58 mkw. W inwestycji znajdować się będą komórki lokatorskie do 7mkw. Ceny apartamentów są uzależnione od kondygnacji, na której będą się znajdowały.</b></p>
+                <p><b>Projekt zakłada budowę 7-piętrowego budynku o ciekawej, nowoczesnej kaskadowej bryle. W budynku powstaną łącznie 104 apartamenty oraz 2 lokale o charakterze usługowym. Każdy apartament dysponować będzie przestrzennym balkonem/loggią do 16 m<sup>2</sup>, tarasem do 90 m<sup>2</sup> lub ogródkiem o powierzchni do 58 m<sup>2</sup>. W inwestycji znajdować się będą komórki lokatorskie do 7 m<sup>2</sup>. Ceny apartamentów są uzależnione od kondygnacji, na której będą się znajdowały.</b></p>
                 <p>&nbsp;</p>
                 <p>Stylowe wykończenia części wspólnych z zastosowaniem naturalnego kamienia, oraz dekoracyjnych lameli ściennych – wprowadzają nowoczesność, funkcjonalność i komfort. Czystość formy, duże lustra oraz stonowane barwy dodadzą wnętrzom przestrzeni i światła.</p>
             </div>
@@ -404,7 +404,7 @@
             <div class="col-12 col-md-8 text-center">
                 <p>Nie możesz się doczekać zakupu nowego mieszkania? Doskonale to rozumiemy – własne mieszkanie daje poczucie bezpieczeństwa i stabilizacji oraz możliwość samodzielnej aranżacji. To coś, na co warto czekać.</p>
                 <p>&nbsp;</p>
-                <p>Zastanawiasz się jednak, czy kupno mieszkania w centrum miasta to dobry pomysł? Zdecydowanie tak, jeśli zależy Ci na:</p>
+                <p>Zastanawiasz się jednak, czy kupno mieszkania w centrum miasta to dobry pomysł? Zdecydowanie tak, jeśli:</p>
             </div>
         </div>
 
@@ -413,7 +413,7 @@
                 <div class="features-box">
                     <div>
                         <span><img src="{{ asset('/images/icons/kawiarnia.png') }}" width="150" height="150" alt="Kawiarnie"></span>
-                        <p>Byciu w centrum wydarzeń – i mieć pod ręką instytucje kultury, ulubione kawiarnie i restauracje, kluby</p>
+                        <p>Chcesz być w centrum wydarzeń – mieć pod ręką instytucje kultury, ulubione kawiarnie i restauracje, kluby</p>
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="320.793" height="337.792" viewBox="0 0 320.793 337.792">

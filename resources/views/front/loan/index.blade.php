@@ -71,7 +71,7 @@
                         <div class="circle-box-icon">
                             <img src="{{ asset('/images/icons/icon-report.png') }}" alt="" width="85" height="85">
                         </div>
-                        <p>Pomożemy uzyskać najkorzystniejszy kredyt z ofert ponad 20 anków</p>
+                        <p>Pomożemy uzyskać najkorzystniejszy kredyt z ofert ponad 20 banków</p>
                     </div>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2 p-0 mt-280">

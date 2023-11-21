@@ -41,7 +41,7 @@
                         <li class="property-feature">
                             <div>
                                 <p>BUDYNEK</p>
-                                <span>Apartamenty Wyzwolenia</span>
+                                <span><b>Apartamenty Wyzwolenia</b></span>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="204.602" height="215.444" viewBox="0 0 204.602 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M0,20.541H204.6l-.023,215.444L0,207.09Z" stroke="none"/><path d="M 1 21.5408935546875 L 1 206.2208862304688 L 203.5788421630859 234.8334197998047 L 203.6014556884766 21.5408935546875 L 1 21.5408935546875 M 0 20.5408935546875 L 204.6015625 20.5408935546875 L 204.5787200927734 235.9845581054688 L 0 207.0895538330078 L 0 20.5408935546875 Z" stroke="none" fill="rgba(210,180,101,0)"/></g></svg>
                         </li>
@@ -57,7 +57,7 @@
                         <li class="property-feature">
                             <div>
                                 <p>POW.</p>
-                                <span>{{$property->area}} m<sup>2</sup></span>
+                                <span><b>{{$property->area}}</b> m<sup>2</sup></span>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="204.602" height="215.444" viewBox="0 0 204.602 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M0,20.541H204.6l-.023,215.444L0,207.09Z" stroke="none"/><path d="M 1 21.5408935546875 L 1 206.2208862304688 L 203.5788421630859 234.8334197998047 L 203.6014556884766 21.5408935546875 L 1 21.5408935546875 M 0 20.5408935546875 L 204.6015625 20.5408935546875 L 204.5787200927734 235.9845581054688 L 0 207.0895538330078 L 0 20.5408935546875 Z" stroke="none" fill="rgba(210,180,101,0)"/></g></svg>
                         </li>
@@ -66,7 +66,7 @@
                         <li class="property-feature">
                             <div>
                                 <p>OGRÓDEK</p>
-                                <span>{{$property->garden_area}} m<sup>2</sup></span>
+                                <span><b>{{$property->garden_area}}</b> m<sup>2</sup></span>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="204.602" height="215.444" viewBox="0 0 204.602 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M0,20.541H204.6l-.023,215.444L0,207.09Z" stroke="none"/><path d="M 1 21.5408935546875 L 1 206.2208862304688 L 203.5788421630859 234.8334197998047 L 203.6014556884766 21.5408935546875 L 1 21.5408935546875 M 0 20.5408935546875 L 204.6015625 20.5408935546875 L 204.5787200927734 235.9845581054688 L 0 207.0895538330078 L 0 20.5408935546875 Z" stroke="none" fill="rgba(210,180,101,0)"/></g></svg>
                         </li>
@@ -75,22 +75,30 @@
                         <li class="property-feature">
                             <div>
                                 <p>ANEKS /<br>KUCHNIA</p>
-                                <span>{{$property->kitchen}}</span>
+                                <span><b>{{$property->kitchen}}</b></span>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="204.733" height="215.444" viewBox="0 0 204.733 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M204.733,20.541H0L.023,235.985l204.711-28.9Z" stroke="none"/><path d="M 1.000091552734375 21.5408935546875 L 1.022735595703125 234.83349609375 L 203.7334442138672 206.2207946777344 L 203.7334442138672 21.5408935546875 L 1.000091552734375 21.5408935546875 M -1.52587890625e-05 20.5408935546875 L 204.7334442138672 20.5408935546875 L 204.7334442138672 207.0895538330078 L 0.022857666015625 235.9845581054688 L -1.52587890625e-05 20.5408935546875 Z" stroke="none" fill="rgba(255,255,255,0.5)"/></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="204.602" height="215.444" viewBox="0 0 204.602 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M0,20.541H204.6l-.023,215.444L0,207.09Z" stroke="none"/><path d="M 1 21.5408935546875 L 1 206.2208862304688 L 203.5788421630859 234.8334197998047 L 203.6014556884766 21.5408935546875 L 1 21.5408935546875 M 0 20.5408935546875 L 204.6015625 20.5408935546875 L 204.5787200927734 235.9845581054688 L 0 207.0895538330078 L 0 20.5408935546875 Z" stroke="none" fill="rgba(210,180,101,0)"/></g></svg>
                         </li>
                         @endif
                         @if($property->deadline)
                         <li class="property-feature">
                             <div>
                                 <p>TERMIN ODDANIA</p>
-                                <span>{{$property->deadline}}</span>
+                                <span><b>{{$property->deadline}}</b></span>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="204.602" height="215.444" viewBox="0 0 204.602 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M0,20.541H204.6l-.023,215.444L0,207.09Z" stroke="none"/><path d="M 1 21.5408935546875 L 1 206.2208862304688 L 203.5788421630859 234.8334197998047 L 203.6014556884766 21.5408935546875 L 1 21.5408935546875 M 0 20.5408935546875 L 204.6015625 20.5408935546875 L 204.5787200927734 235.9845581054688 L 0 207.0895538330078 L 0 20.5408935546875 Z" stroke="none" fill="rgba(210,180,101,0)"/></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="204.733" height="215.444" viewBox="0 0 204.733 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M204.733,20.541H0L.023,235.985l204.711-28.9Z" stroke="none"/><path d="M 1.000091552734375 21.5408935546875 L 1.022735595703125 234.83349609375 L 203.7334442138672 206.2207946777344 L 203.7334442138672 21.5408935546875 L 1.000091552734375 21.5408935546875 M -1.52587890625e-05 20.5408935546875 L 204.7334442138672 20.5408935546875 L 204.7334442138672 207.0895538330078 L 0.022857666015625 235.9845581054688 L -1.52587890625e-05 20.5408935546875 Z" stroke="none" fill="rgba(255,255,255,0.5)"/></g></svg>
                         </li>
                         @endif
 
-                        @if($property->balcony_area)<li>Balkon:<span>{{$property->balcony_area}} m<sup>2</sup></span></li>@endif
+                        @if($property->balcony_area)
+                            <li class="property-feature">
+                                <div>
+                                    <p>BALKON</p>
+                                    <span><b>{{$property->balcony_area}}</b> m<sup>2</sup></span>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="204.602" height="215.444" viewBox="0 0 204.602 215.444"><g transform="translate(0 -20.541)" fill="#fff"><path d="M0,20.541H204.6l-.023,215.444L0,207.09Z" stroke="none"/><path d="M 1 21.5408935546875 L 1 206.2208862304688 L 203.5788421630859 234.8334197998047 L 203.6014556884766 21.5408935546875 L 1 21.5408935546875 M 0 20.5408935546875 L 204.6015625 20.5408935546875 L 204.5787200927734 235.9845581054688 L 0 207.0895538330078 L 0 20.5408935546875 Z" stroke="none" fill="rgba(210,180,101,0)"/></g></svg>
+                            </li>
+                        @endif
                         @if($property->balcony_area_2)<li>Balkon 2:<span>{{$property->balcony_area_2}} m<sup>2</sup></span></li>@endif
                         @if($property->terrace_area)<li>Taras:<span>{{$property->terrace_area}} m<sup>2</sup></span></li>@endif
                         @if($property->terrace_area_2)<li>Taras 2:<span>{{$property->terrace_area_2}} m<sup>2</sup></span></li>@endif
@@ -98,11 +106,6 @@
                         @if($property->parking_space)<li>Miejsce postojowe:<span>{{$property->parking_space}}</span></li>@endif
                         @if($property->garage)<li>Garaż:<span>{{$property->garage}}</span></li>@endif
                     </ul>
-                </div>
-                <div class="d-flex justify-content-start">
-                @if($property->file_pdf)
-                    <a href="{{ asset('/investment/property/pdf/'.$property->file_pdf) }}" target="_blank" class="bttn mt-2 mt-sm-5">POBIERZ PLAN .PDF</a>
-                @endif
                 </div>
             </div>
 
@@ -118,6 +121,11 @@
                         </a>
                     </div>
                 @endif
+                <div class="d-flex justify-content-center">
+                    @if($property->file_pdf)
+                        <a href="{{ asset('/investment/property/pdf/'.$property->file_pdf) }}" target="_blank" class="bttn mt-2">POBIERZ PLAN .PDF</a>
+                    @endif
+                </div>
             </div>
 
         </div>
