@@ -12,7 +12,7 @@
 
 <div id="property">
     <div class="container">
-        <div id="propertyNav" class="row d-none">
+        <div id="propertyNav" class="row mb-4">
             <div class="col-12 col-sm-4">
                 @if($prev) <a href="{{route('property', [$floor, $prev->id])}}" class="bttn">Poprzednie</a>@endif
             </div>

@@ -7,15 +7,20 @@
 @section('pageheader')
     @include('layouts.partials.property-header', [
     'title' => $investment->floor->name,
-    'header_file' => 'rooms.jpg',
     'items' => [
-        ['uri'=> 'i/'.$investment->slug, 'title'=> $investment->name],
+        ['uri'=> 'plan', 'title'=> 'Plan inwestycji'],
         ]
     ])
 @stop
 
 @section('content')
     <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="{{ asset('/images/svg/header-deco.svg') }}" alt="" width="99" height="17" class="m-auto mb-3">
+                <h2>{{$investment->floor->name}}</h2>
+            </div>
+        </div>
         <div id="planNav" class="row">
             <div class="col-12 col-sm-4 d-flex justify-content-start">@if($prev_floor) <a href="{{route('floor', $prev_floor->id)}}" class="bttn">{{$prev_floor->name}}</a> @endif</div>
             <div class="col-12 col-sm-4 d-flex justify-content-center">
