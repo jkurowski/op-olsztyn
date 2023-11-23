@@ -1418,6 +1418,18 @@ html.swipebox-html.swipebox-touch {
 }
 /* Formularze
 ================================================== */
+#page .rodo-rules label p {
+  color: var(--main-color-blue);
+  font-size: 13px;
+  line-height: normal;
+}
+#page .rodo-rule {
+  display: flex;
+  padding: 10px 0 0 0;
+}
+#page .rodo-rule input {
+  margin-right: 10px;
+}
 form .form-control {
   border: 0;
   border-bottom: 1px solid var(--main-color-blue);

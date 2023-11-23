@@ -148,7 +148,7 @@
                                     {{ session('warning') }}
                                 </div>
                             @endif
-                            <form method="post" id="contact-form" action="" class="validateForm">
+                            <form method="post" id="contact-form" action="{{ route('contact.property', $property) }}" class="validateForm">
                                 {{ csrf_field() }}
                                 <div class="row">
                                     <div class="col-12 form-input">
@@ -187,7 +187,7 @@
                                         <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
                                         @enderror
                                     </div>
-                                    <div class="rodo-rules d-none">
+                                    <div class="rodo-rules">
                                         @foreach ($rules as $r)
                                             <div class="col-12 @error('rule_'.$r->id) is-invalid @enderror">
                                                 <div class="rodo-rule clearfix">
@@ -206,7 +206,7 @@
                                 <div class="row row-form-submit">
                                     <div class="col-12 pt-3">
                                         <div class="input text-end">
-                                            <input name="form_page" type="hidden" value="homepage">
+                                            <input name="form_page" type="hidden" value="{{ $property->name }}">
                                             <script type="text/javascript">
                                                 document.write("<button class=\"bttn\" type=\"submit\">Wyślij wiadomość</button>");
                                             </script>

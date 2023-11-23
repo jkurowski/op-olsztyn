@@ -59,6 +59,7 @@ Route::middleware(['restrictIp'])->group(function () {
 
     Route::get('kontakt',
         'Front\ContactController@index')->name('contact.index');
+
     Route::post('kontakt',
         'Front\ContactController@send')->name('contact.send');
 
