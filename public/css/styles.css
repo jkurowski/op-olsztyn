@@ -445,7 +445,7 @@ aside a:hover i {
   right: 0;
   margin: auto;
 }
-#slider .container .col-6 svg {
+#slider .container .col-sm-6 svg {
   width: 100%;
   height: auto;
 }
@@ -1641,6 +1641,9 @@ form .col-input-important {
   .dist-mark-12 {
     height: 180px !important;
   }
+  #slider .container .slider-apla {
+    padding: 0 35px 0 27px;
+  }
 }
 /* end of 1199.98 */
 @media (max-width: 991.98px) {
@@ -1827,6 +1830,27 @@ form .col-input-important {
   .investement-bg .features-box {
     top: 60px;
   }
+  #slider .container h1 {
+    font-size: 39px;
+  }
+  #slider .container p {
+    margin: 5px 0 25px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .features-box {
+    top: 32px;
+  }
+  .features-box p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 15px;
+  }
+  .features-box span {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto 20px;
+  }
 }
 /* end of 991.98 */
 @media (max-width: 767.98px) {
@@ -1934,6 +1958,17 @@ form .col-input-important {
   }
   .investement-bg .features-box {
     top: 27px;
+  }
+  #slider .container h1 {
+    font-size: 28px;
+  }
+  #slider .container p {
+    margin: 5px 0 15px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  #slider .container .slider-apla {
+    padding: 0 15px 32px 25px;
   }
 }
 /* end of 767.98 */
@@ -2052,6 +2087,16 @@ form .col-input-important {
     margin-right: -13px;
     padding: 30px 13px;
   }
+  #slider svg {
+    display: none;
+  }
+  #slider .container,
+  #slider .container .slider-apla {
+    position: static;
+  }
+  #slider .container .slider-apla {
+    padding: 20px 0;
+  }
 }
 /* end of 575.98 */
 @media (max-width: 480px) {
@@ -2071,6 +2116,24 @@ form .col-input-important {
   #circle-image p {
     font-size: 14px;
     line-height: 20px;
+  }
+  .features-box p {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0 10px;
+  }
+  .features-box span {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 10px;
+  }
+  .features-box {
+    top: 0;
+    bottom: 0;
+  }
+  .features-bg {
+    background: url(../images/features-bg.jpg) no-repeat top 70px center;
+    background-size: cover;
   }
 }
 /* end of 359.98 */

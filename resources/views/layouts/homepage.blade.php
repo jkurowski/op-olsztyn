@@ -28,7 +28,7 @@
             <img src="{{ asset('../uploads/slider/slide-1.jpg') }}" alt="" width="1920" height="880">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 position-relative d-flex align-items-center">
+                    <div class="col-12 col-sm-6 position-relative d-flex align-items-center">
                         <div class="slider-apla">
                             <h1>Tu jest pięknie odwiedź nas!</h1>
                             <p>To niezwykła lokalizacja świetnie skomunikowana z każdą inną częścią miasta</p>
@@ -604,15 +604,9 @@
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
-
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-
+                    slidesToShow: 2,
                 }
             }
         ]
