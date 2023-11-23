@@ -1471,6 +1471,11 @@ form .col-input-important {
 .openmenu #triggermenu:hover {
   color: white;
 }
+@media (max-width: 1920.98px) {
+  #page {
+    padding: 60px 0;
+  }
+}
 @media (max-width: 1399.98px) {
   header nav ul li {
     margin-left: 5px;
