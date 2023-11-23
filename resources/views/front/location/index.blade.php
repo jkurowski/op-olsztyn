@@ -33,7 +33,17 @@
         </div>
     </section>
 
-    <section class="pt-0">
+    <section class="p-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.31152749308!2d20.47660066758571!3d53.77888600678762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed16eb7b1f3%3A0x1f84b9f9e83d92a!2sWyzwolenia%206%2F1%2C%2010-106%20Olsztyn!5e0!3m2!1spl!2spl!4v1698924540281!5m2!1spl!2spl" width="100%" height="550" style="border:11px solid #d2b465;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="container">
             <div class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <div class="col-3 nav-item" role="presentation">
