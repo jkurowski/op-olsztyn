@@ -13,9 +13,11 @@ class GalleryController extends Controller
 
     public function index()
     {
-        $page = Page::where('id', 3)->first();
+        $page = Page::where('id', 11)->first();
+        $galeries = Gallery::all();
         return view('front.gallery.index', [
-            'page' => $page
+            'page' => $page,
+            'galeries' => $galeries
         ]);
     }
 }

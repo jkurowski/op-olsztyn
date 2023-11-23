@@ -33,34 +33,7 @@
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12 col-md-8 order-2 order-md-1">
-                            <div class="pt-4 pt-md-0 pe-0 pe-md-5">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.31152749308!2d20.47660066758571!3d53.77888600678762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e27ed16eb7b1f3%3A0x1f84b9f9e83d92a!2sWyzwolenia%206%2F1%2C%2010-106%20Olsztyn!5e0!3m2!1spl!2spl!4v1698924540281!5m2!1spl!2spl" width="100%" height="550" style="border:11px solid white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe-map"></iframe>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4 order-1 order-md-2 d-flex align-items-center text-center text-md-start">
-                            <div class="text-lato text-small w-100">
-                                <h3>BIURO SPRZEDAŻY</h3>
-                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-mail.svg') }}" alt="Ikonka adresu e-mail"> <a href="mailto:biuro@apartamenty-wyzwolenia.pl"><b>biuro@apartamenty-wyzwolenia.pl</b></a></p>
-                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-phone.svg') }}" alt="Ikonka telefonu kontaktowego"> <a href="tel:+48790201217"><b>+48 790 201 217</b></a></p>
-                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-location.svg') }}" alt="Ikonka lokalizacji"> <b>ul. Wyzwolenia 6/1, 10-105 Olsztyn</b></p>
-                                <p>&nbsp;</p>
-                                <h4>GODZINY OTWARCIA BIURA</h4>
-                                <p class="svg-icon"><img src="{{ asset('/images/svg/icon-time.svg') }}" alt="Ikonka adresu godzin otwarcia"> <b>poniedziałek - piątek: 09:30-17:00</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
+    <section class="pt-0">
         <div class="container">
             <div class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <div class="col-3 nav-item" role="presentation">

@@ -294,14 +294,6 @@
                     <p>Balkony wykończone gresem</p>
                 </div>
             </div>
-            <div class="col-6 col-sm-4 col-lg-2 p-0">
-                <div class="circle-box">
-                    <div class="circle-box-icon">
-                        <img src="{{ asset('/images/icons/playground-icon.png') }}" alt="" width="85" height="85">
-                    </div>
-                    <p>Balkony wykończone gresem</p>
-                </div>
-            </div>
         </div>
     </div>
 </section>

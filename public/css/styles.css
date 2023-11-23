@@ -1011,6 +1011,48 @@ section {
 }
 /* Opis inwestycji
 ================================================== */
+.gal-item {
+  position: relative;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.1));
+}
+.gal-item img {
+  clip-path: polygon(0px 0px, 100% 0, 100% calc(100% - 50px), 0px 100%, 0px calc(100% - 50px));
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 343px;
+}
+.gal-item .gal-item-border {
+  clip-path: polygon(0px 0px, 100% 0, 100% calc(100% - 50px), 0px 100%, 0px calc(100% - 50px));
+  background: #D2B465;
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  right: -1px;
+  left: -1px;
+  z-index: 5;
+}
+.gal-item-rev {
+  position: relative;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.1));
+}
+.gal-item-rev img {
+  clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 50px));
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 343px;
+}
+.gal-item-rev .gal-item-border {
+  clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 50px));
+  background: #D2B465;
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  right: -1px;
+  left: -1px;
+  z-index: 5;
+}
 /* Swipebox
 ================================================== */
 html.swipebox-html.swipebox-touch {
