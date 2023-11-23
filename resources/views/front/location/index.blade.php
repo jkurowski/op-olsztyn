@@ -46,7 +46,7 @@
     <section>
         <div class="container">
             <div class="row nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <div class="col-3 nav-item" role="presentation">
+                <div class="col-6 col-sm-3 nav-item" role="presentation">
                     <div id="pills-work-tab" data-bs-toggle="pill" data-bs-target="#pills-work" role="tab" aria-controls="pills-work" aria-selected="true" class="svg-box active">
                         <div class="svg-box-content">
                             <div>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 nav-item" role="presentation">
+                <div class="col-6 col-sm-3 nav-item" role="presentation">
                     <div id="pills-sport-tab" data-bs-toggle="pill" data-bs-target="#pills-sport" role="tab" aria-controls="pills-sport" aria-selected="false" class="svg-box">
                         <div class="svg-box-content">
                             <div>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 nav-item" role="presentation">
+                <div class="col-6 col-sm-3 nav-item" role="presentation">
                     <div id="pills-fun-tab" data-bs-toggle="pill" data-bs-target="#pills-fun" role="tab" aria-controls="pills-fun" aria-selected="false" class="svg-box">
                         <div class="svg-box-content">
                             <div>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 nav-item" role="presentation">
+                <div class="col-6 col-sm-3 nav-item" role="presentation">
                     <div id="pills-bus-tab" data-bs-toggle="pill" data-bs-target="#pills-bus" role="tab" aria-controls="pills-bus" aria-selected="false" class="svg-box">
                         <div class="svg-box-content">
                             <div>
