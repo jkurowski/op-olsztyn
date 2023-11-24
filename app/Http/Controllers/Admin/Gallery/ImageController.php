@@ -32,6 +32,8 @@ class ImageController extends Controller
 
         if ($request->hasFile('qqfile')) {
             $this->service->upload($request->file('qqfile'), $image);
+        } else {
+            dd($request->hasFile('qqfile'));
         }
         return response()->json(['success' => true]);
     }
