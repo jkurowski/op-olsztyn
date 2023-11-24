@@ -28,7 +28,6 @@ class ImageService
             }
         }
         $name_file = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
-        dd($name_file);
 
         $name = date('His') . '_' . Str::slug($name_file) . '.' . $file->getClientOriginalExtension();
         $name_webp = date('His') . '_' . Str::slug($name_file) . '.webp';
