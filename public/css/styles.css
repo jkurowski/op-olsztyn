@@ -1527,6 +1527,10 @@ form .col-input-important {
     line-height: 22px;
     padding: 0 20px;
   }
+  .gal-item-rev img,
+  .gal-item img {
+    height: 286px;
+  }
 }
 @media (max-width: 1199.98px) {
   .h2,
@@ -1686,6 +1690,10 @@ form .col-input-important {
   .tab-content p {
     font-size: 19px;
     line-height: 29px;
+  }
+  .gal-item-rev img,
+  .gal-item img {
+    height: 237px;
   }
 }
 /* end of 1199.98 */
@@ -2074,6 +2082,22 @@ form .col-input-important {
     font-size: 15px;
     line-height: 25px;
   }
+  .gal-item-rev img,
+  .gal-item img {
+    height: 171px;
+  }
+  .gal-item img {
+    clip-path: polygon(0px 0px, 100% 0, 100% calc(100% - 30px), 0px 100%, 0px calc(100% - 30px));
+  }
+  .gal-item .gal-item-border {
+    clip-path: polygon(0px 0px, 100% 0, 100% calc(100% - 30px), 0px 100%, 0px calc(100% - 30px));
+  }
+  .gal-item-rev img {
+    clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 30px));
+  }
+  .gal-item-rev .gal-item-border {
+    clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 30px));
+  }
 }
 /* end of 767.98 */
 @media (max-width: 575.98px) {
@@ -2238,6 +2262,22 @@ form .col-input-important {
   .tab-content p {
     font-size: 14px;
     line-height: 21px;
+  }
+  .gal-item img,
+  .gal-item-rev img {
+    height: 41vw;
+  }
+  .gal-item img {
+    clip-path: polygon(0px 0px, 100% 0, 100% calc(100% - 10px), 0px 100%, 0px calc(100% - 10px));
+  }
+  .gal-item .gal-item-border {
+    clip-path: polygon(0px 0px, 100% 0, 100% calc(100% - 10px), 0px 100%, 0px calc(100% - 10px));
+  }
+  .gal-item-rev img {
+    clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 10px));
+  }
+  .gal-item-rev .gal-item-border {
+    clip-path: polygon(0 0, 100% 0px, 100% 100%, 0 calc(100% - 10px));
   }
 }
 /* end of 575.98 */

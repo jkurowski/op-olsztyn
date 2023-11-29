@@ -15,10 +15,9 @@
             @foreach($galeries as $g)
                 <div class="col-12">
                     <h2>{{ $g->name }}</h2>
-
                     <div class="row justify-content-center">
                         @foreach($g->photos as $index => $p)
-                            <div class="col-3 mb-4">
+                            <div class="col-6 col-sm-4 col-lg-3 mb-4">
                                 <div class="{{ $index % 2 === 0 ? 'gal-item' : 'gal-item-rev' }}">
                                     <a href="/uploads/gallery/images/{{$p->file}}" class="swipebox" rel="gallery-1" title="">
                                         <picture>
