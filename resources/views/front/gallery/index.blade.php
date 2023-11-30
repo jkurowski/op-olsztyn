@@ -14,7 +14,7 @@
         <div class="row">
             @foreach($galeries as $g)
                 <div class="col-12">
-                    <h2 class="mb-0">{{ $g->name }}</h2>
+                    <h2 class="@if($g->text) mb-0 @else mb-3 mb-sm-4 mb-lg-5 @endif">{{ $g->name }}</h2>
                     @if($g->text) <p class="mb-3 mb-sm-4 mb-lg-5">{!! $g->text !!}</p> @endif
                     <div class="row justify-content-center">
                         @foreach($g->photos as $index => $p)
