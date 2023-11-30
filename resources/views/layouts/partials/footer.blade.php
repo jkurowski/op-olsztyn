@@ -4,7 +4,7 @@
             <div class="col-12 col-sm-4 text-center text-sm-start mb-4 mb-sm-0">
                 <div id="logo">
                     <a href="/">
-                        <img src="{{ asset("/images/logo.jpg") }}" alt="" width="190" height="150">
+                        <img src="{{ asset("/images/logo.png") }}" alt="" width="190" height="93">
                     </a>
                 </div>
                 <h4 class="text-gold mt-3 mt-sm-4">Godziny otwarcia biura</h4>
