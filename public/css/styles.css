@@ -365,6 +365,9 @@ button:focus,
 .bttn.bttn-border {
   border: 1px solid white;
 }
+.bttn.bttn-border-2 {
+  border: 5px solid var(--main-color-blue);
+}
 .bttn-icon i {
   font-size: 27px;
   color: var(--main-color);

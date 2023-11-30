@@ -20,7 +20,7 @@
                             </b></p>
                         <p>&nbsp;</p>
                         <p>Bliskość Starego Miasta to niezależność i komfort, który otwiera dla mieszkańców Apartamentów Wyzwolenia dostęp do szerokiej oferty miasta. Bogaty repertuar Teatru Jaracza, Filharmonii, czy klimatyczne restauracje, kina i kawiarnie, to tylko niektóre z okolicznych atrakcji.</p>
-                        <a href="{{ route('plan') }}" class="bttn mt-4 mt-md-5">Zobacz mieszkania</a>
+                        <a href="{{ route('plan') }}" class="bttn mt-4 mt-md-5 bttn-border-2">Zobacz mieszkania</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 d-none d-lg-flex align-items-center mt-5 mt-lg-0">
@@ -55,7 +55,7 @@
                     <p>Apartamenty Wyzwolenia spełniają wszystkie normy ochrony środowiska Unii Europejskiej. Wszystkie tereny zielone zostaną zachowane, a części wspólne zasilać będą panele fotowoltaiczne. Projektanci zadbali o wszystkie detale inwestycji. Części wspólne Apartamentów Wyzwolenia utrzymane będą w duchu ponadczasowej elegancji.</p>
                     <p>&nbsp;</p>
                     <p>Niepowtarzalność tego budynku podkreślona będzie poprzez kontrastujące ze sobą zestawienia, stylowe detale i szlachetne materiały. Kamień, czy gres przełamane będą ciepłym odcieniem lameli.</p>
-                    <a href="{{ route('plan') }}" class="bttn mt-4 mt-md-5">Zobacz mieszkania</a>
+                    <a href="{{ route('plan') }}" class="bttn mt-4 mt-md-5 bttn-border-2">Zobacz mieszkania</a>
                 </div>
             </div>
             <div class="row justify-content-center mt-0 mt-md-5 pt-5">
