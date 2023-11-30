@@ -861,6 +861,11 @@ section {
   left: 0;
   top: 0;
 }
+#gallery p {
+  color: var(--main-color-gold);
+  font-weight: 800;
+  font-size: 26px;
+}
 /* Circle box
 ================================================== */
 #circle-image .circle-box {
@@ -2286,6 +2291,9 @@ form .col-input-important {
   h2 {
     font-size: 25px;
     margin-bottom: 15px;
+  }
+  #gallery p {
+    font-size: 18px;
   }
   #circle-image .circle-box-icon {
     width: 45px;
