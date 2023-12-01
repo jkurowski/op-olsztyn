@@ -1,3 +1,17 @@
+<div id="otherInvest" class="pt-3 pt-sm-5 pb-3 pb-sm-5 rwd-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-4 text-center text-sm-start">
+                <h4>Nasze inwestycje</h4>
+            </div>
+            <div class="col-6 col-sm-3"><a href="http://www.gsminvestment.pl/" target="_blank"><img src="{{ asset('/images/logos/gsm-logo.png') }}" alt="" width="250" height="118"></a></div>
+            <div class="col-6 col-sm-3"><a href="http://www.grassa.pl/" target="_blank"><img src="{{ asset('/images/logos/grassa-logo.png') }}" alt="" width="250" height="118"></a></div>
+            <div class="col-6 col-sm-3 mt-3 mt-sm-0"><a href="http://www.kameralnepogorze.pl/" target="_blank"><img src="{{ asset('/images/logos/perfect-home-logo.png') }}" alt="" width="250" height="118"></a></div>
+            <div class="col-6 col-sm-3 mt-3 mt-sm-0"><a href="https://www.apartamentyperla.com/" target="_blank"><img src="{{ asset('/images/logos/good-floor-logot.png') }}" alt="" width="250" height="118"></a></div>
+        </div>
+    </div>
+</div>
+
 <footer>
     <div class="container">
         <div class="row">
